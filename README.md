@@ -19,7 +19,7 @@ TakeOver is a powerful Python-based tool designed to detect potential subdomain 
 1. **Installation:** Clone the TakeOver repository and install the required dependencies using `pip`.
    
    ```sh
-   git clone https://github.com/your_username/TakeOver.git
+   git clone https://github.com/Cyber-Watch-Dog/TakeOver
    cd TakeOver
    pip install -r requirements.txt
    ```

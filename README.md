@@ -1,5 +1,5 @@
-# TakeOver-
-### TakeOver: Subdomain Takeover Detection Tool
+# TakeOver
+Subdomain Takeover Detection Tool
 
 **Overview:**
 TakeOver is a powerful Python-based tool designed to detect potential subdomain takeover vulnerabilities. With its intuitive interface and robust scanning capabilities, TakeOver empowers users to identify and mitigate risks associated with unclaimed or improperly configured subdomains.
@@ -15,7 +15,7 @@ TakeOver is a powerful Python-based tool designed to detect potential subdomain 
   
 5. **Detailed Reporting:** Upon completion of the scan, TakeOver presents detailed reports highlighting potential takeover vulnerabilities detected, including the affected subdomains and associated services.
 
-**Usage:**
+**Installation:**
 1. **Installation:** Clone the TakeOver repository and install the required dependencies using `pip`.
    
    ```sh
@@ -24,7 +24,7 @@ TakeOver is a powerful Python-based tool designed to detect potential subdomain 
    pip install -r requirements.txt
    ```
 
-2. **Scanning:** Run the `takeover.py` script with the domain to scan or provide a file containing a list of subdomains.
+2. **Usage:** Run the `takeover.py` script with -d to scan single domain or use -f for a file containing a list of subdomains for multiple scan 
 
    ```sh
    python takeover.py -d example.com
@@ -49,6 +49,6 @@ Have suggestions or encountered issues while using TakeOver? Feel free to open a
 TakeOver is provided for educational and informational purposes only. Users are responsible for ensuring compliance with applicable laws and regulations when using this tool.
 
 **Maintainer:**
-[Your Name or Organization](https://github.com/your_username)
+[Cyber Watch Dog](https://github.com/Cyber-Watch-Dog)
 
 With its comprehensive feature set and user-friendly interface, TakeOver is an invaluable tool for identifying and mitigating subdomain takeover vulnerabilities in your organization's digital assets.
